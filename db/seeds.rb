@@ -6,63 +6,63 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-growth_hacking_monthly = Product.create(title: "Modelación Financiera Aplicada ",
-    subtitle: "Para Start Ups y Pequeñas Empresas", author: "Daniel Aguilar", 
+piano_lesson = Product.create(title: "Piano for Kids ",
+    subtitle: "Get the basic in 20 days", author: "Ms. Vango", 
     length: "20 Dias", author_image_name: "teacher-image.jpg" , 
-    price: "150", sku: "MFA", download_url: "https://s3.amazonaws.com/one-month-stripe-payments-das/Daniel_Aguilar_Santos_Resume.pdf", 
-    details: "We'll charge you Monthly, for unlimited time to our mentoring team", description: %{<p>A Financial Modeler is a rare combination: someone with the right finance skills who can come up with clever Accounting + Excel + Finance hacks and also track their results.</p>
+    price: "70", sku: "piano", download_url: "https://s3.amazonaws.com/one-month-stripe-payments-das/Daniel_Aguilar_Santos_Resume.pdf", 
+    details: "We'll charge you Monthly, for unlimited time to our mentoring team", description: %{<p>A clasical piano preformer is a rare combination: someone with the right xxxxx skills who can come up with clever xxxxx + yyyy + zzzz music.</p>
 
-            <p>In this series, Daniel Aguilar introduces you to the concept of Advanced Financial Modeling applied to business and shares his favorite tips for getting started as a Advanced Financial Modeler.</p>
+            <p>In this series, Daniel introduces you to the concept of xxxx applied to piano and shares his favorite tips for getting started as a Piano Student.</p>
             <p><strong>What You'll Learn</strong></p>
             <ul class="no-indent">
-                <li>Basic Accounting</li>
-                <li>Excel for Business</li>
-                <li>How to apply Finance using Accounting and Excel</li>
+                <li>Basic xxxx</li>
+                <li>EXXX for piano students</li>
+                <li>How to read xxxxx</li>
                 <li>Resources and tools you'll need to know</li>
             </ul>}, 
-   author_description: %{<p>Hey, I'm Daniel Aguilar, co-founder EduReal and <a href="http://www.galponn.com" target="_blank">Galponn</a> Where I teach the best promising course for business towards to optimize, learn and apply finance in a simple way.</p>
+   author_description: %{<p>Hey, I'm Daniel Aguilar, co-founder WSOM and <a href="http://www.galponn.com" target="_blank">Galponn</a> Where I teach the best promising piano course.</p>
                 <p>Why take my class? In the past I've advised several companies in USA, Hong Kong, China and Colombia. 
                 </p>
                 <p>Follow me on Twitter <a href="https://twitter.com/danielaguilar" target="_blank">@danielaguilar</a></p>})  
 
-copywriting_monthly = Product.create(title: "Optimización y Valoración Avanzada",
-    subtitle: "Para Start Ups y Pequeñas Empresas", author: "Camilo Arenas", 
+guitar_lesson = Product.create(title: "Guitar Chords",
+    subtitle: "For Kids", author: "Jorn Vango", 
     length: "20 Dias", author_image_name: "teacher-image2.jpg" , 
-    price: "80", sku: "OVA", download_url: "https://s3.amazonaws.com/one-month-stripe-payments-das/Daniel_Aguilar_Santos_Resume.pdf", 
-    details: "We'll charge you Monthly, for unlimited time to our mentoring team", description: %{<p>A Financial Professional focused on Valuation and Optimization is a rare combination: someone with the right finance skills who can come up with clever investment strategies to improve portfolio returns for individuals and businesses.
+    price: "80", sku: "GLC", download_url: "https://s3.amazonaws.com/one-month-stripe-payments-das/Daniel_Aguilar_Santos_Resume.pdf", 
+    details: "We'll charge you Monthly, for unlimited time to our mentoring team", description: %{<p>A Guittar Professional focused on xxxx is a rare combination: someone with the right yyyyy skills who can come up with clever zzzzzzz.
 
 </p>
 
-            <p>In this series, Camilo Arenas introduces you to the concept of operational optimization and valuation and shares his favorite to generate real savings in your Company.
+            <p>In this series, Jorn Vango introduces you to the concept of playing pasive chords.
 
 </p>
             <p><strong>What You'll Learn</strong></p>
             <ul class="no-indent">
-                <li>Optimization</li>
-                <li>Valuation</li>
-                <li>Cash Flow Improvements</li> 
-                <li>Increasing your Profits</li>                  
+                <li>Chords</li>
+                <li>Ritms</li>
+                <li>How to interpret xxxx</li> 
+                <li>Mixing xxxxx</li>                  
             </ul>}, 
-   author_description: %{<p>Hey, I'm Camilo Arenas, co-founder of EduReal and <a href="http://www.serfinco.com" target="_blank">Serfinco</a>CIO,Where I lead the best promising investmets strategies.</p>
-                <p>Why take my class? In the past I've advised several companies in Colombias's Stock Market and Pension Funds. 
+   author_description: %{<p>Hey, I'm Jorn Vango, co-founder WSOM and <a href="http://www.galponn.com" target="_blank">Galponn</a> Where I teach the best promising piano course.</p>
+                <p>Why take my class? In the past I've advised several companies in USA, Hong Kong, China and Colombia. 
                 </p>
-                <p>Follow me on Twitter <a href="https://twitter.com/camiloarenas" target="_blank">@camiloarenas</a></p>})  
+                <p>Follow me on Twitter <a href="https://twitter.com/danielaguilar" target="_blank">@danielaguilar</a></p>})   
 
 
-analytics_monthly = Product.create(title: "Programación Avanzada",
-    subtitle: "En Excel con Macros", author: "Camilo Arenas y Daniel Aguilar", 
+vallenato_lesson = Product.create(title: "Learn Accordion",
+    subtitle: "The Fashion Instrument of Today", author: " Daniel Aguilar", 
     length: "20 Dias", author_image_name: "teacher-image2.jpg" , 
-    price: "70", sku: "PAEM", download_url: "https://s3.amazonaws.com/one-month-stripe-payments-das/Daniel_Aguilar_Santos_Resume.pdf", 
-    details: "We'll charge you Monthly, for unlimited time to our mentoring team", description: %{<p>inancial Professional focused on Valuation and Optimization is a rare combination: someone with the right finance skills who can come up with clever investment strategies to improve portfolio returns for individuals and businesses</p>
+    price: "70", sku: "AL", download_url: "https://s3.amazonaws.com/one-month-stripe-payments-das/Daniel_Aguilar_Santos_Resume.pdf", 
+    details: "We'll charge you Monthly, for unlimited time to our mentoring team", description: %{<p>Vallenato is a rare combination: someone with the right accordion skills who can come up with clever chords...ritms...mix</p>
 
-            <p>In this series, Camilo and Daniel introduces you to the concept advanced macros without programming.</p>
+            <p>In this series, CDaniel introduces you to the concept of vallenato without xxxxx.</p>
             <p><strong>What You'll Learn</strong></p>
             <ul class="no-indent">
-                <li>Excel Basics</li>
-                <li>Macros Basics</li>
-                <li>Applied macros for Start-ups, small and Medium Companies </li>                
+                <li>Vallenato Basics</li>
+                <li>Accordion Basics</li>
+                <li>Applied Chords for Accordion </li>                
             </ul>}, 
-   author_description: %{<p>Hey, we are Camilo Arenas and Daniel Aguilar, co-founders of <a href="http://www.edureal.com" target="_blank">EduReal</a> Where we teach the best promising course for business towards to optimize, learn and apply finance in a simple way</p>
+   author_description: %{<p>Hey I am Daniel Aguilar, co-founder of <a href="http://www.edureal.com" target="_blank">EduReal</a> Where we teach the best promising course for business towards to optimize, learn and apply finance in a simple way</p>
                 <p>Why take my class? In the past We've advised several companies in USA, Hong Kong, China and Colombia 
                 </p>
                 <p>Follow me on Twitter <a href="https://twitter.com/camiloarenas" target="_blank">@camiloarenas</a></p>})  

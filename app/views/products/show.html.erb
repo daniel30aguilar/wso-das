@@ -19,7 +19,7 @@
               <%= hidden_field_tag 'stripeEmail' %>
               <%= hidden_field_tag 'product_id', @product.id %>
               <%= hidden_field_tag 'amount', @product.price_in_cents %>
-              <button id='btn-buy' type='button' class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-ok"></span>Quiero Aprender !</button>
+              <button id='btn-buy' type='button' class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-ok"></span>I wan to learn!</button>
 
               <script>
                 var handler = StripeCheckout.configure({
@@ -41,10 +41,10 @@
               </script>
             <% end %>
             <ul id="details-infobox" class="list-group">
-              <li class="list-group-item active clearfix">INFORMACIÓN</li>
+              <li class="list-group-item active clearfix">Info</li>
               <li class="list-group-item"><%= @product.details %></li>
               <li class="list-group-item clearfix">
-                <span class="pull-left content-qualifier">Duración</span>
+                <span class="pull-left content-qualifier">Lenght</span>
                 <span class="pull-right"><%= @product.length %></span>
               </li>
             </ul>
@@ -52,7 +52,7 @@
     </section>
 </div>
 <footer id="site-footer">
-Made by EduReal
+Made by WSOM School of Music
 </footer>
 
 <!-- Modal -->
